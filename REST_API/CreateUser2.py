@@ -10,4 +10,4 @@ print(resp.json())
 print(resp.json())
 print(resp.headers.get("content-type"))
 assert resp.json()['job'] == "Automation"
-# print("Hellow")
+print("Hellow")   # This will show message
